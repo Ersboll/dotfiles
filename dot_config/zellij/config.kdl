@@ -327,4 +327,4 @@ theme "default"
 // theme_dir "/path/to/my/theme_dir"
 
 
-copy_on_select false
+//copy_on_select false
