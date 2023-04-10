@@ -20,3 +20,10 @@ source /Users/nker/.docker/init-zsh.sh || true # Added by Docker Desktop
 
 source /Users/nker/.profile
 source /Users/nker/.zshenv
+
+
+# pyenv 
+alias brew='env PATH="${PATH//$(pyenv root)/shims:/}" brew'if command -v pyenv 1>/dev/null 2>&1; then
+  eval "$(pyenv init -)"
+  eval "$(pyenv virtualenv-init -)"
+fi
