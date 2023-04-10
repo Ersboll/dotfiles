@@ -18,8 +18,8 @@ source ~/.oh-my-zsh/custom/themes/powerlevel10k/powerlevel10k.zsh-theme
 
 source /Users/nker/.docker/init-zsh.sh || true # Added by Docker Desktop
 
-# source /Users/nker/.profile
-# source /Users/nker/.zshenv
+source /Users/nker/.profile
+source /Users/nker/.zshenv
 
 
 # pyenv 
