@@ -1,0 +1,5 @@
+. "$HOME/.cargo/env"
+
+source /Users/nker/.docker/init-bash.sh || true # Added by Docker Desktop
+alias z=zellij
+export EDITOR=/opt/homebrew/bin/hx
