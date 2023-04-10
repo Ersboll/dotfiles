@@ -4,6 +4,7 @@ source /Users/nker/.docker/init-bash.sh || true # Added by Docker Desktop
 alias z=zellij
 export EDITOR=/opt/homebrew/bin/hx
 
+alias brew='env PATH="${PATH//$(pyenv root)\/shims:/}" brew'
 export PYENV_ROOT="$HOME/.pyenv"
 command -v pyenv >/dev/null || export PATH="$PYENV_ROOT/bin:$PATH"
 export PATH="$PYENV_ROOT/bin:$PATH"
