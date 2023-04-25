@@ -5,11 +5,6 @@ theme = "tokyonight_storm"
 mouse=false
 bufferline="multiple"
 
-[editor.statusline]
-mode.insert=""
-mode.normal="󰆾"
-mode.select="󱊁"
-
 [editor.whitespace.render]
 space="none"
 tab="all"
