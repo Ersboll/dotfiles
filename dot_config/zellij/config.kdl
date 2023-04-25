@@ -5,7 +5,7 @@ keybinds {
         // bind "Alt c" { Copy; }
     }
     locked {
-        bind "Meta g" { SwitchToMode "Normal"; }
+        bind "Ctrl g" { SwitchToMode "Normal"; }
     }
     resize {
         bind "Ctrl n" { SwitchToMode "Normal"; }
